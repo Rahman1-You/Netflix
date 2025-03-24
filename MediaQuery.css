@@ -1,0 +1,440 @@
+/* I haven't used max-width in style.css because it effects in media query file.I have applied 320px to 1200px responsivness. */
+
+
+
+@media screen and (min-width: 320px) and (max-width : 480px) {
+    .fit {
+        padding-inline: 0.5rem;
+    }
+    .header-top .btn {
+        padding: 0.35rem 0.6rem;
+        font-weight: 550;
+        font-size: 0.7rem;
+    }
+
+    .header-content .header-text {
+        padding: 6% 0%;
+        gap: 0.2rem;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+    }
+
+    .header-text h1 {
+        font-size: 2.1em;
+        font-weight: 550;
+        line-height: 2rem;
+
+    }
+
+    h2 {
+        font-weight: 450;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+    }
+
+    .header-text .input-field {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .header-text input,
+    .start-btn {
+        width: 80%;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .start-btn {
+        padding: 0.4rem 0rem;
+        font-weight: 550;
+    }
+
+    /* main */
+    .main {
+        padding-block: 0.4rem;
+    }
+
+    .movies {
+        flex-wrap: wrap;
+    }
+
+    .movies .poster {
+        flex-basis: 100%;
+    }
+
+    .movies .poster img {
+        border-radius: 2%;
+        width: 100%;
+        height: 250px;
+    }
+
+    .movies .poster img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Info-Cards */
+    .info-cards {
+        padding-block: 0.5rem;
+    }
+
+    .cards {
+        flex-basis: 97%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        height: 250px;
+        width: 100%;
+        border-radius: 7%;
+        padding: 1rem 1rem;
+    }
+
+    .cards .card h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    /* FAQs */
+    .faqs {
+        margin-block: 0.8rem;
+    }
+
+    .question {
+        padding: 0.7rem 15px;
+    }
+
+    .question i {
+        font-size: x-small;
+    }
+
+    /* Footer */
+    .footer-top {
+        padding-block: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-top input {
+        width: 80%;
+        margin-block: 0.3rem;
+        font-size: 0.8rem;
+    }
+
+    .footer-list {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width : 768px) {
+    .fit {
+        padding-inline: 0.7rem;
+    }
+    .header-top .btn {
+        font-weight: 500;
+    }
+
+    .header-content .header-text {
+        padding: 2% 3%;
+    }
+
+    .header-text h1 {
+        font-size: 2.5rem;
+        font-weight: 550;
+        line-height: 2.5rem;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-weight: 450;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+    }
+
+    .header-text .input-field {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .header-text input,
+    .start-btn {
+        width: 60%;
+        padding-block: 10px;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .movies {
+        flex-wrap: wrap;
+    }
+
+    .movies .poster {
+        flex-basis: 49%;
+    }
+
+    .movies .poster img {
+        border-radius: 1rem;
+    }
+
+    /* Info-Cards */
+    .info-cards {
+        padding-block: 0.5rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-basis: 50%;
+    }
+
+    .card {
+        width: 100%;
+        height: 250px;
+        border-radius: 1rem;
+        padding: 1rem 1rem;
+        object-fit: cover;
+    }
+
+    .cards .card h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-list {
+        padding: 0px 5.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .list {
+        flex-basis: 50%;
+        line-height: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-top {
+        padding-block: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-top input {
+        width: 60%;
+        margin-block: 0.3rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .footer-top .start-btn {
+        width: 60%;
+        font-weight: 500;
+        padding-block: 10px;
+        font-size: 0.8rem;
+    }
+
+    .footer-list {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width :1024px) {
+    .fit {
+        padding-inline: 1rem;
+    }
+    .header-top .btn {
+        font-weight: 550;
+    }
+
+    .header-content .header-text {
+        padding: 3% 9%;
+        gap: 0.6rem;
+    }
+
+    .header-text h1 {
+        font-size: 3.5rem;
+        font-weight: 550;
+        line-height: 3rem;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-weight: 450;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+    }
+
+    .header-text .input-field {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-field input {
+        width: 60%;
+
+    }
+    .header-text input{
+        font-weight: 490;
+        font-size: 1rem;
+        padding-block: 15.3px;
+    }
+    .header-text .start-btn{
+        font-weight: 550;
+        font-size: 0.9rem;
+        padding-block: 15.2px;
+    }
+
+    .movies {
+        flex-wrap: wrap;
+    }
+
+    .movies .poster {
+        flex-basis: 49%;
+    }
+
+    .movies .poster img {
+        border-radius: 1rem;
+    }
+
+    /* Info-Cards */
+    .info-cards {
+        padding-block: 0.7rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        height: 300px;
+        width: 100%;
+        border-radius: 1rem;
+        padding: 1rem 1rem;
+        object-fit: cover;
+    }
+
+    .cards .card h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer-top .top-input {
+        width: 50%;
+        padding-block: 15.5px;
+        font-size: 0.9rem;
+        font-weight: 490;
+    }
+
+    .footer-top .start-btn {
+        width: 20%;
+        font-size:  0.9rem;
+        font-weight: 550;
+        padding-block: 15.2px;
+
+    }
+}
+
+@media screen and (min-width : 1025px) and (max-width:1200px) {
+    .fit {
+        padding-inline: 2rem;
+    }
+
+    .header-top .btn {
+        font-weight: 550;
+    }
+
+    .header-content .header-text {
+        padding: 0% 5%;
+        gap: 0.8rem;
+    }
+
+    .header-text h1 {
+        font-size: 3.8rem;
+        font-weight: 550;
+        line-height: 3rem;
+    }
+
+    .header-text p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-weight: 450;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+    }
+
+    .header-text .input-field {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-field input {
+        width: 50%;
+        font-weight: 450;
+        font-size: 0.9rem;
+        padding-block: 15.5px;
+    }
+
+    .input-field .start-btn {
+        width: 20%;
+        padding-block: 15.2px;
+        font-weight: 550;
+        font-size: 0.9rem;
+    }
+    .footer-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .footer-top .top-input {
+        width: 50%;
+        padding-block: 15.5px;
+        font-size: 0.9rem;
+        font-weight: 490;
+    }
+
+    .footer-top .start-btn {
+        width: 20%;
+        font-size:  0.9rem;
+        font-weight: 550;
+        padding-block: 15.2px;
+
+    }
+
+}
