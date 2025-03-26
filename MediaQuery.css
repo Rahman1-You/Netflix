@@ -23,7 +23,7 @@
     }
 
     .header-text h1 {
-        font-size: 2.1em;
+        font-size: 2.1rem;
         font-weight: 550;
         line-height: 2rem;
 
@@ -41,18 +41,21 @@
         align-items: center;
         justify-content: center;
         gap: 5px;
+        width: 90%;
     }
 
-    .header-text input,
-    .start-btn {
-        width: 100%;
-        font-size: 0.8rem;
+    .header-text input{
         font-weight: 500;
+        font-size: 0.9rem;
+        height: 44px;
+        width: 100%;
     }
-
-    .start-btn {
-        padding: 0.4rem 0rem;
+    .header-text .start-btn {
+        width: 100%;
+        height: 44px;
+        padding: 0.2rem 0rem;
         font-weight: 550;
+        font-size: 0.9rem;
     }
 
     /* main */
@@ -75,7 +78,8 @@
     }
 
     .movies .poster img:hover {
-        transform: scale(1.02);
+        transform: scale(1.01);
+        box-shadow: 0px 0px 1rem #ff0000;
     }
 
     /* Info-Cards */
@@ -122,12 +126,22 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
     }
 
     .footer-top input {
-        width: 80%;
+        width: 100%;
         margin-block: 0.3rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        height: 44px;
+        font-weight: 500;
+        padding-block: 0;
+    }
+    .footer-top button{
+        width: 100% ;
+        font-size: 0.9rem;
+        font-weight: 550;
+        height: 44px;
     }
 
     .footer-list {

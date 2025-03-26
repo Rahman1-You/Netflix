@@ -25,7 +25,6 @@ li {
 }
 
 .fit {
-    /* padding-inline: 3rem; */
     max-width: 1180px;
     margin-inline: auto;
     overflow: hidden;
@@ -129,19 +128,20 @@ p {
 
 .start-btn {
 
-    padding: 0.71rem 0.7rem;
+    padding: 0.71rem 0.9rem;
     color: white;
     background-color: var(--red-btn);
     border-radius: 0.2rem;
     border: none;
     font-weight: 550;
     font-size: 1.2rem;
-    transition: all 0.1s linear;
+    transition: background-color 0.1s linear;
 }
 
 .start-btn:hover {
     background-color: var(--red-btn-hover);
     cursor: pointer;
+
 }
 
 /* Main */
