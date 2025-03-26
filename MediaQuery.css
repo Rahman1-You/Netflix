@@ -12,9 +12,10 @@
         font-size: 0.7rem;
     }
 
-    .header-content .header-text {
-        padding: 6% 0%;
+    .header .filter  .header-content .filter .header-text {
+        padding: 0% 0%;
         gap: 0.2rem;
+        /* height: 80%; */
     }
 
     .header-text p {
@@ -44,7 +45,7 @@
 
     .header-text input,
     .start-btn {
-        width: 80%;
+        width: 100%;
         font-size: 0.8rem;
         font-weight: 500;
     }
@@ -74,7 +75,7 @@
     }
 
     .movies .poster img:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 
     /* Info-Cards */

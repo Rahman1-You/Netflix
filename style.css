@@ -101,10 +101,11 @@ p {
 /* Text intro */
 .header-content .header-text {
     flex-direction: column;
-    padding: 2.5rem 5rem;
+    padding-block-start: 5% ;
+    align-items: center;
     color: white;
     text-align: center;
-    gap: 0.4rem;
+    gap: 0.5rem;
 }
 
 .input-field {
