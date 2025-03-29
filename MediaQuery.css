@@ -301,11 +301,12 @@
         font-size: 0.9rem;
     }
 
+    /*
     h2 {
         font-weight: 450;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-family: sans-serif;
-    }
+    } */
 
     .header-text .input-field {
         flex-direction: row;
@@ -360,7 +361,7 @@
 
     .cards .card h2 {
         font-size: 1.5rem;
-        font-weight: 500;
+        font-weight: 550;
         margin-bottom: 0.5rem;
     }
 
@@ -411,28 +412,23 @@
         font-size: 1rem;
     }
 
-    h2 {
-        font-weight: 450;
-        font-size: 1.6rem;
-        font-family: sans-serif;
-    }
-
     .header-text .input-field {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        max-width: 100%;
     }
 
     .input-field input {
-        width: 50%;
+        max-width: 60%;
         font-weight: 450;
         font-size: 0.9rem;
         padding-block: 15.5px;
     }
 
     .input-field .start-btn {
-        width: 20%;
-        padding-block: 15.2px;
+        max-width: 30%;
+        padding-block: 15px;
         font-weight: 550;
         font-size: 0.9rem;
     }
