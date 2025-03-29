@@ -6,13 +6,14 @@
     .fit {
         padding-inline: 0.5rem;
     }
+
     .header-top .btn {
         padding: 0.35rem 0.6rem;
         font-weight: 550;
         font-size: 0.7rem;
     }
 
-    .header .filter  .header-content .filter .header-text {
+    .header .filter .header-content .filter .header-text {
         padding: 0% 0%;
         gap: 0.2rem;
         /* height: 80%; */
@@ -44,12 +45,13 @@
         width: 90%;
     }
 
-    .header-text input{
+    .header-text input {
         font-weight: 500;
         font-size: 0.9rem;
         height: 44px;
         width: 100%;
     }
+
     .header-text .start-btn {
         width: 100%;
         height: 44px;
@@ -137,8 +139,9 @@
         font-weight: 500;
         padding-block: 0;
     }
-    .footer-top button{
-        width: 100% ;
+
+    .footer-top button {
+        width: 100%;
         font-size: 0.9rem;
         font-weight: 550;
         height: 44px;
@@ -154,6 +157,7 @@
     .fit {
         padding-inline: 0.7rem;
     }
+
     .header-top .btn {
         font-weight: 500;
     }
@@ -184,6 +188,7 @@
         align-items: center;
         justify-content: center;
         gap: 7px;
+        width: 100%;
     }
 
     .header-text input,
@@ -276,6 +281,7 @@
     .fit {
         padding-inline: 1rem;
     }
+
     .header-top .btn {
         font-weight: 550;
     }
@@ -305,18 +311,18 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .input-field input {
-        width: 60%;
-
-    }
-    .header-text input{
+        max-width: 60%;
         font-weight: 490;
         font-size: 1rem;
-        padding-block: 15.3px;
+        padding-block: 15px;
     }
-    .header-text .start-btn{
+
+    .header-text .start-btn {
+        max-width: 30%;
         font-weight: 550;
         font-size: 0.9rem;
         padding-block: 15.2px;
@@ -374,7 +380,7 @@
 
     .footer-top .start-btn {
         width: 20%;
-        font-size:  0.9rem;
+        font-size: 0.9rem;
         font-weight: 550;
         padding-block: 15.2px;
 
@@ -430,6 +436,7 @@
         font-weight: 550;
         font-size: 0.9rem;
     }
+
     .footer-top {
         display: flex;
         align-items: center;
@@ -446,7 +453,7 @@
 
     .footer-top .start-btn {
         width: 20%;
-        font-size:  0.9rem;
+        font-size: 0.9rem;
         font-weight: 550;
         padding-block: 15.2px;
 
